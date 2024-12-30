@@ -77,15 +77,17 @@
   <!-- Header Section -->
   <header>
     <h1>Callisto Racing</h1>
+    <style>
         /* Gradient Text */
-    .gradient-text {
-      font-size: 3rem;
-      font-weight: bold;
-      text-align: center;
-      background: linear-gradient(to bottom, #ff7e5f, #feb47b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+      .gradient-text {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    <style>
     <p>Innovating for the F1 in Schools Competition</p>
   </header>
 
