@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -38,3 +37,107 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
+    h2 {
+      color: #000;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .team-roles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .team-roles div {
+      padding: 1rem;
+      background: #f4f4f4;
+      border-radius: 5px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #000;
+      color: #fff;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>[Team Name]</h1>
+    <p>Innovating for the F1 in Schools Competition</p>
+  </header>
+
+  <!-- Overview Section -->
+  <section>
+    <h2>Overview</h2>
+    <p>
+      [Team Name] is an ambitious and innovative car racing team competing in the prestigious F1 in Schools competition. Our team of dedicated high school students is passionate about engineering, design, and the thrill of motorsport. We are committed to pushing the boundaries of performance and creativity to achieve excellence both on and off the track.
+    </p>
+  </section>
+
+  <!-- Our Mission Section -->
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      To design, manufacture, and race a miniature Formula 1 car that combines cutting-edge engineering principles, aerodynamic efficiency, and striking visual design. Through teamwork and collaboration, we aim to deliver a car that excels on the track while embodying the spirit of F1 innovation.
+    </p>
+  </section>
+
+  <!-- Our Strategy Section -->
+  <section>
+    <h2>Our Strategy</h2>
+    <ul>
+      <li><strong>Innovation in Design:</strong> Using advanced CAD software and wind tunnel simulations to refine every curve and component of our car.</li>
+      <li><strong>Precision Manufacturing:</strong> Leveraging CNC machining and 3D printing for a high-quality, lightweight build.</li>
+      <li><strong>Sustainable Practices:</strong> Incorporating eco-friendly materials and minimizing waste in our processes.</li>
+      <li><strong>Community Engagement:</strong> Building partnerships with sponsors, promoting STEM education, and inspiring the next generation of innovators.</li>
+    </ul>
+  </section>
+
+  <!-- Meet the Team Section -->
+  <section>
+    <h2>Meet the Team</h2>
+    <div class="team-roles">
+      <div>
+        <h3>Team Manager</h3>
+        <p>Oversees project planning and ensures deadlines are met.</p>
+      </div>
+      <div>
+        <h3>Design Engineer</h3>
+        <p>Specializes in CAD modeling and aerodynamic optimization.</p>
+      </div>
+      <div>
+        <h3>Manufacturing Engineer</h3>
+        <p>Handles production and assembly for quality and precision.</p>
+      </div>
+      <div>
+        <h3>Marketing Manager</h3>
+        <p>Develops sponsorships and promotes our team’s brand identity.</p>
+      </div>
+      <div>
+        <h3>Graphic Designer</h3>
+        <p>Creates captivating designs for our car and promotional materials.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Follow our journey at [Social Media Links] | Contact: example@example.com</p>
+  </footer>
+
+</body>
+</html>
