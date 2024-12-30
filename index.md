@@ -20,8 +20,14 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
-    }
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      background: linear-gradient(to bottom, #75e8ff, #223ab3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+        }
+  
     header p {
       font-size: 1.2rem;
       margin-top: 0.5rem;
@@ -77,17 +83,6 @@
   <!-- Header Section -->
   <header>
     <h1>Callisto Racing</h1>
-    <style>
-        /* Gradient Text */
-      .gradient-text {
-        font-size: 3rem;
-        font-weight: bold;
-        text-align: center;
-        background: linear-gradient(to bottom, #75e8ff, #223ab3);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    </style>
     <p>Innovating for the F1 in Schools Competition</p>
   </header>
 
