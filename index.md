@@ -14,7 +14,7 @@
       color: #333;
     }
     header {
-      background-image: url('car_demo.jpg')
+      background-image: url('car_demo.jpg');
       background-size: cover; 
       background-position: center;
       color: #fff;
