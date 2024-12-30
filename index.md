@@ -83,7 +83,7 @@
         font-size: 3rem;
         font-weight: bold;
         text-align: center;
-        background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+        background: linear-gradient(to bottom, #75e8ff, #223ab3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
