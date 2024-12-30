@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #2b58c2; /* Blue */
+    --secondary-color: #d1b234; /* Gold */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: #fff; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
