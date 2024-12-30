@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css">
+![image](https://github.com/user-attachments/assets/18f52e5e-d59d-467d-80d0-2ba0c4f5ebe7)<link rel="stylesheet" href="style.css">
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,7 +14,7 @@
       color: #333;
     }
     header {
-      background-image: 'https://www.brightongrammar.vic.edu.au/wp-content/uploads/2024/03/page/DSCF0857-1275x534.jpg' 
+      background-image: url('car_demo.jpg')
       background-size: cover; 
       background-position: center;
       color: #fff;
