@@ -41,5 +41,13 @@ button:hover {
     color: #fff;
 }
 
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; /* Add some spacing from content */
+}
+
 
 
