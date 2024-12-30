@@ -14,12 +14,18 @@
       color: #333;
     }
     header {
-      background: #000;
+      background-image: 'https://www.brightongrammar.vic.edu.au/wp-content/uploads/2024/03/page/DSCF0857-1275x534.jpg' 
+      background-size: cover; 
+      background-position: center;
       color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       padding: 2rem 1rem;
       height: 500px;
     }
+    
     header h1 {
       margin: 0;
       font-size: 3rem;
