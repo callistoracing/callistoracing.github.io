@@ -144,7 +144,7 @@
 
   <!-- Footer Section -->
   <footer>
-    <p>Follow our journey at [Social Media Links] | Contact: example@example.com</p>
+    <p>Follow our journey on Instagram: @callisto_racing | Contact: example@example.com</p>
   </footer>
 
 </body>
