@@ -70,15 +70,13 @@
       text-align: center;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
-
     footer {
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
       text-align: center;
-      padding: 1rem;
-      background: #000;
-      color: #fff;
-      margin-top: 1rem;
-      height: 200px;
-    }
+      padding: 10px;
+      margin-top: 20px; /* Add some spacing from content */
+      }
   </style>
 </head>
 <body>
