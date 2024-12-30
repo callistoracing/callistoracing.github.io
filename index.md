@@ -17,6 +17,7 @@
       color: #fff;
       text-align: center;
       padding: 2rem 1rem;
+      height: 200px;
     }
     header h1 {
       margin: 0;
@@ -75,6 +76,7 @@
       background: #000;
       color: #fff;
       margin-top: 1rem;
+      height: 200px;
     }
   </style>
 </head>
