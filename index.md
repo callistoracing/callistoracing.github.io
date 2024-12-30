@@ -76,7 +76,16 @@
 
   <!-- Header Section -->
   <header>
-    <h1>[Team Name]</h1>
+    <h1>Callisto Racing</h1>
+    /* Gradient Text */
+.gradient-text {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
     <p>Innovating for the F1 in Schools Competition</p>
   </header>
 
@@ -84,7 +93,7 @@
   <section>
     <h2>Overview</h2>
     <p>
-      [Team Name] is an ambitious and innovative car racing team competing in the prestigious F1 in Schools competition. Our team of dedicated high school students is passionate about engineering, design, and the thrill of motorsport. We are committed to pushing the boundaries of performance and creativity to achieve excellence both on and off the track.
+      Callisto Racing is an ambitious and innovative racing team competing in the prestigious F1 in Schools competition. Our team of dedicated secondary school students is passionate about engineering, design, and the thrill of motorsport. We are committed to pushing the boundaries of performance and creativity to achieve excellence both on and off the track.
     </p>
   </section>
 
