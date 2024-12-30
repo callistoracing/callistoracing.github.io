@@ -18,7 +18,7 @@
       color: #fff;
       text-align: center;
       padding: 2rem 1rem;
-      height: 200px;
+      height: 500px;
     }
     header h1 {
       margin: 0;
