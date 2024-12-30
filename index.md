@@ -136,7 +136,8 @@
 
   <!-- Footer Section -->
   <footer>
-    <p>Follow our journey on Instagram: @callisto_racing | Contact: example@example.com</p>
+    <p>Follow our journey on Instagram: <a href="https://www.instagram.com/callisto_racing/">@callisto_racing</a>
+ | Contact: example@example.com</p>
   </footer>
 
 </body>
