@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3 {
     color: var(--secondary-color);
-    font-family: 'AlienFutureItalic', sans-serif;
+    font-family: 'AlienFutureItalic';
 }
 
 a {
