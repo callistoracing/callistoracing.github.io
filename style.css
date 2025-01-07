@@ -3,6 +3,12 @@
     --secondary-color: #d1b234; /* Gold */
 }
 
+@font-face {
+  font-family: 'AlienFuture';
+  src: url('alien_future.zip') format('truetype');
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: var(--primary-color);
@@ -13,7 +19,7 @@ body {
 
 h1, h2, h3 {
     color: var(--secondary-color);
-    font-family: "Alien Future Italic"
+    font-family: 'AlienFuture';
 }
 
 a {
