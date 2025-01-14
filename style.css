@@ -85,26 +85,20 @@ h2, h3 {
     margin-bottom: 1rem;
 }
 
-.half-section {
+ .half-section {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 2rem;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
   }
 
   .half-text, .half-image {
     flex: 1;
-    padding: 1rem;
-  }
-
-  .half-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    box-sizing: border-box;
   }
 
   .half-text {
@@ -114,7 +108,7 @@ h2, h3 {
 
   .half-text h2 {
     color: #000;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -122,8 +116,18 @@ h2, h3 {
     margin-bottom: 1rem;
   }
 
+  .half-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   .half-section:nth-child(odd) {
-    flex-direction: row-reverse; /* Reverse order for alternating layout */
+    flex-direction: row; /* Text on the left, image on the right for odd sections */
+  }
+
+  .half-section:nth-child(even) {
+    flex-direction: row-reverse; /* Image on the left, text on the right for even sections */
   }
 
 a {
