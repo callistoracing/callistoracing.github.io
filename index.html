@@ -26,15 +26,23 @@
   </section>
 
   <!-- Our Mission Section -->
-  <section>
+ <section class="half-section">
+  <div class="half-text">
     <h2>Our Mission</h2>
     <p>
       To design, manufacture, and race a miniature Formula 1 car that combines cutting-edge engineering principles, aerodynamic efficiency, and striking visual design. Through teamwork and collaboration, we aim to deliver a car that excels on the track while embodying the spirit of F1 innovation.
     </p>
-  </section>
+  </div>
+  <div class="half-image">
+    <img src="mission_image.jpg" alt="Our Mission Image" />
+  </div>
+</section>
 
-  <!-- Our Strategy Section -->
-  <section>
+<section class="half-section">
+  <div class="half-image">
+    <img src="strategy_image.jpg" alt="Our Strategy Image" />
+  </div>
+  <div class="half-text">
     <h2>Our Strategy</h2>
     <ul>
       <li><strong>Innovation in Design:</strong> Using advanced CAD software and wind tunnel simulations to refine every curve and component of our car.</li>
@@ -42,7 +50,52 @@
       <li><strong>Sustainable Practices:</strong> Incorporating eco-friendly materials and minimizing waste in our processes.</li>
       <li><strong>Community Engagement:</strong> Building partnerships with sponsors, promoting STEM education, and inspiring the next generation of innovators.</li>
     </ul>
-  </section>
+  </div>
+</section>
+
+<style>
+  .half-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .half-text, .half-image {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .half-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .half-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .half-text h2 {
+    color: #000;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .half-text p, .half-text ul {
+    margin-bottom: 1rem;
+  }
+
+  .half-section:nth-child(odd) {
+    flex-direction: row-reverse; /* Reverse order for alternating layout */
+  }
+</style>
+
 
   <!-- Meet the Team Section -->
   <section>
