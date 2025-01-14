@@ -85,6 +85,47 @@ h2, h3 {
     margin-bottom: 1rem;
 }
 
+.half-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .half-text, .half-image {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .half-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .half-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .half-text h2 {
+    color: #000;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .half-text p, .half-text ul {
+    margin-bottom: 1rem;
+  }
+
+  .half-section:nth-child(odd) {
+    flex-direction: row-reverse; /* Reverse order for alternating layout */
+  }
+
 a {
     color: var(--secondary-color);
     text-decoration: none;
