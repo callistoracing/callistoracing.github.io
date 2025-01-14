@@ -8,18 +8,81 @@
   src: url('Alien Future Italic.ttf') format('truetype');
 }
 
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: var(--primary-color);
-    color: #fff; /* Default text color */
-    margin: 0;
-    padding: 0;
-}
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-image: url('car_demo.jpg');
+      background-size: cover; 
+      background-position: center;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 1rem;
+      height: 500px;
+    }
 
-h1, h2, h3 {
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      background: linear-gradient(to bottom, #75e8ff, #223ab3);
+      font-family: 'AlienFutureItalic', Arial, sans-serif;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: absolute; /* Make the text float over the image */
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%); /* Offset to truly center */
+      margin: 0;
+        }
+  
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: #fff;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .team-roles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .team-roles div {
+      padding: 1rem;
+      background: #f4f4f4;
+      border-radius: 5px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+h2, h3 {
     color: var(--secondary-color);
-    font-family: 'AlienFutureItalic', Arial, sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 a {
