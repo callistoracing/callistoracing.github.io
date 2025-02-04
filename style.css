@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'AlienFutureItalic';
-  src: url('Alien Future Italic.ttf') format('truetype');
+  src: url('AlienFutureItalic.ttf') format('truetype');
 }
 
 body {
@@ -95,12 +95,8 @@ h2, h3 {
     overflow: hidden;
 }
 
-.half-section:nth-child(odd) {
-    flex-direction: row;
-}
-
-.strategy-section {
-    display: flex;
+.half-section.strategy-section {
+    flex-direction: row-reverse;
     align-items: center;
     margin-bottom: 2rem;
     background: #fff;
