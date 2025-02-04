@@ -130,6 +130,29 @@ h2, h3 {
     flex-direction: row-reverse; /* Image on the left, text on the right for even sections */
   }
 
+.strategy-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-direction: row-reverse; /* Image on the left, text on the right */
+  }
+
+  .half-text, .half-image {
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .half-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
 a {
     color: var(--secondary-color);
     text-decoration: none;
