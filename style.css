@@ -95,6 +95,21 @@ h2, h3 {
     overflow: hidden;
 }
 
+.half-section:nth-child(odd) {
+    flex-direction: row;
+}
+
+.strategy-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-direction: row-reverse; /* Image on the left, text on the right */
+}
+
 .half-text, .half-image {
     flex: 1;
     padding: 2rem;
@@ -105,28 +120,6 @@ h2, h3 {
     width: 100%;
     height: auto;
     display: block;
-}
-
-/* "Our Mission" - Text on Left, Image on Right */
-.half-section:nth-child(odd) {
-    flex-direction: row;
-}
-
-/* "Our Strategy" - Image on Left, Text on Right */
-.strategy-section {
-    flex-direction: row-reverse;
-}
-
-a {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    padding: 2px 4px;
-    border-radius: 4px;
 }
 
 button {
@@ -151,6 +144,3 @@ footer {
     margin-top: 20px; 
     height: 150px;
 }
-
-
-
