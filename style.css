@@ -87,7 +87,8 @@ h2, h3 {
 
 .half-section {
     display: flex;
-    flex-wrap: nowrap; /* Prevents stacking */
+    flex-wrap: nowrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
@@ -105,10 +106,9 @@ h2, h3 {
     padding: 2rem;
     box-sizing: border-box;
     width: 50%; /* Ensures side-by-side layout */
-    min-width: 300px; /* Prevents text/image collapse */
 }
 
-.half-section.half-image img {
+.half-image img {
     width: 100%;
     height: auto;
     display: block;
