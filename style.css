@@ -87,9 +87,10 @@ h2, h3 {
 
 .half-section {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; /* Prevents stacking */
     align-items: center;
     justify-content: space-between;
+    gap: 2rem;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto 2rem auto;
@@ -99,23 +100,23 @@ h2, h3 {
     overflow: hidden;
 }
 
-.half-section.strategy-section {
-    flex-direction: row-reverse;
-    align-items: center;
-    margin-bottom: 2rem;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    flex-direction: row-reverse; 
+.half-text, .half-image {
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 50%; /* Ensures side-by-side layout */
+    min-width: 300px; /* Prevents text/image collapse */
 }
 
 .half-image img {
-    width: 100%;  
+    width: 100%;
     height: auto;
     display: block;
-    margin: 5 auto; 
+    border-radius: 5px;
 }
+
+.strategy-section {
+    flex-direction: row-reverse; /* Ensures image is on the left */
 }
 
 button {
