@@ -108,7 +108,7 @@ h2, h3 {
     min-width: 300px; /* Prevents text/image collapse */
 }
 
-.half-image img {
+half-section.half-image img {
     width: 100%;
     height: auto;
     display: block;
