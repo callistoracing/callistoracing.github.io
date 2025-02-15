@@ -87,8 +87,12 @@ h2, h3 {
 
 .half-section {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
-    margin-bottom: 2rem;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 2rem auto;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -107,7 +111,7 @@ h2, h3 {
 }
 
 .half-image img {
-    width: 500px;  
+    width: 100%;  
     height: auto;
     display: block;
     margin: 5 auto; 
