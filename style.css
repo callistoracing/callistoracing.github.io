@@ -93,10 +93,10 @@ h2, h3 {
     gap: 1rem;
 }
 .strategy-box {
-    background: #f4f4f4;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
 }
  .strategy-box:nth-child(odd) {
     background: var(--primary-color);
