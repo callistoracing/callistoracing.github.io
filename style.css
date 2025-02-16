@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2b58c2; /* Blue */
+    --primary-color: #222; /* Blue */
     --secondary-color: #d1b234; /* Gold */
 }
 
@@ -120,25 +120,19 @@ h2, h3 {
     flex-direction: row-reverse;
 }
 
-button {
-    background-color: var(--secondary-color);
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: var(--primary-color);
-    color: #fff;
-}
-
 footer {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
     text-align: center;
     padding: 10px;
     margin-top: 20px; 
     height: 150px;
 }
+footer a {
+    color: #f4d03f; /* Bright color to ensure visibility */
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+    }
