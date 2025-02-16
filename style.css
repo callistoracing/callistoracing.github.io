@@ -129,11 +129,6 @@ h2, h3 {
     border-radius: 5px;
 }
 
-.strategy-section {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
  .communication-container {
       display: flex;
       justify-content: space-around;
