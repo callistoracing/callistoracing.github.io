@@ -100,7 +100,7 @@ h2, h3 {
 }
  .strategy-box:nth-child(odd) {
     background: var(--primary-color);
-    color: black;
+    color: white;
 }
 .strategy-box:nth-child(even) {
     background: var(--secondary-color);
