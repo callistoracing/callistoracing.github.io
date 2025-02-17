@@ -144,19 +144,17 @@ h2, h3 {
     flex-wrap: wrap;
     text-align: center;
 }
-.communication-item {
-    width: 30%;
-    padding: 1rem;
-}
-.communication-item img {
-    height: 80px;
-}
 .communication-box {
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     margin: 1rem 0;
     background: #f4f4f4;
+    text-align: center;
+}
+.communication-box img {
+    height: 80px;
+    margin-bottom: 0.5rem;
 }
 
 footer {
