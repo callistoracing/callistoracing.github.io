@@ -4,8 +4,7 @@
 }
 
 @font-face {
-  font-family: 'AlienFutureItalic';
-  src: url('AlienFutureItalic.ttf') format('truetype');
+
 }
 
 body {
@@ -25,6 +24,8 @@ body {
       align-items: center;
       text-align: center;
       padding: 2rem 1rem;
+      position: relative;
+      flex-direction: column;
       height: 500px;
     }
     header h1, header p {
@@ -38,19 +39,14 @@ body {
       font-weight: bold;
       text-align: center;
       background: linear-gradient(to bottom, #75e8ff, #223ab3);
-      font-family: 'AlienFutureItalic', Arial, sans-serif;
+      font-family: Arial, sans-serif;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      position: absolute; /* Make the text float over the image */
-      top: 50%; /* Center vertically */
-      left: 50%; /* Center horizontally */
-      transform: translate(-50%, -50%); /* Offset to truly center */
-      margin: 0;
+      margin-bottom: 0.5rem;
         }
   
     header p {
       font-size: 1.2rem;
-      margin-top: 0.5rem;
     }
 
     .header-overlay {
