@@ -25,6 +25,8 @@ body {
       text-align: center;
       padding: 2rem 1rem;
       height: 500px;
+      position: relative;
+      flex-direction: column;
     }
     header h1, header p {
       position: absolute;
