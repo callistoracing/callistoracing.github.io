@@ -156,9 +156,9 @@ h2, h3 {
 }
 
  .communication-container, .sponsorship-container {
-     display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 .communication-box, .sponsorship-box {
    padding: 1rem;
