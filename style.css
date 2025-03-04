@@ -155,23 +155,28 @@ h2, h3 {
     margin: 2rem auto;
 }
 
- .communication-container, .sponsorship-container {
+.communication-container, .sponsorship-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
+
 .communication-box, .sponsorship-box {
-   padding: 1rem;
-   border-radius: 5px;
-   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-   background: #f4f4f4;
-   text-align: center;
+    flex: 1 1 calc(50% - 1rem); /* 2 boxes per row */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: #f4f4f4;
+    text-align: center;
+    box-sizing: border-box;
 }
-.communication-box, .sponsorship-box img {
+
+.communication-box img, .sponsorship-box img {
     width: 80px;
     height: 80px;
     margin-bottom: 0.5rem;
 }
+
 
 footer {
     background-color: var(--primary-color);
