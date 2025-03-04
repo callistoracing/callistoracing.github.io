@@ -162,13 +162,13 @@ h2, h3 {
 }
 
 .communication-box, .sponsorship-box {
-    flex: 1 1 calc(50% - 1rem); /* 2 boxes per row */
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    background: #f4f4f4;
-    text-align: center;
-    box-sizing: border-box;
+     padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      background: #f4f4f4;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
 }
 
 .communication-box img, .sponsorship-box img {
